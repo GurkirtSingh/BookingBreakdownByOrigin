@@ -1,5 +1,5 @@
 # BookingBreakdownByOrigin
-A simple python script to convert room number by states to origins.
+A simple python script to convert "room numbers by states" to "room numbers by origins".
 
 ## Brief Details
 
