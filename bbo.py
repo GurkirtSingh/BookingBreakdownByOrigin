@@ -27,8 +27,7 @@ def SortByBookingOrigin(file):
     
     try:
         csv_contents = file.read().decode('utf-8', errors='replace')
-        mfrReader = csv.reader(io.StringIO(csv_contents),delimiter=',', quotechar='|')
-
+        mfrReader = csv.reader(io.StringIO(csv_contents),delimiter=',', quotechar='"')
         # skip the first line that contain header
         next(mfrReader)
         # total
